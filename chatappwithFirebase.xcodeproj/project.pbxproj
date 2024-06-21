@@ -14,6 +14,9 @@
 		F479B2222C24B65300602831 /* chatappwithFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479B2212C24B65300602831 /* chatappwithFirebaseTests.swift */; };
 		F479B22C2C24B65300602831 /* chatappwithFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479B22B2C24B65300602831 /* chatappwithFirebaseUITests.swift */; };
 		F479B22E2C24B65300602831 /* chatappwithFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479B22D2C24B65300602831 /* chatappwithFirebaseUITestsLaunchTests.swift */; };
+		F479B23C2C24B76C00602831 /* TitleRow .swift in Sources */ = {isa = PBXBuildFile; fileRef = F479B23B2C24B76C00602831 /* TitleRow .swift */; };
+		F479B23F2C24BFDB00602831 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479B23E2C24BFDB00602831 /* Message.swift */; };
+		F479B2412C24C31A00602831 /* MensageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479B2402C24C31A00602831 /* MensageBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F479B2272C24B65300602831 /* chatappwithFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatappwithFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F479B22B2C24B65300602831 /* chatappwithFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatappwithFirebaseUITests.swift; sourceTree = "<group>"; };
 		F479B22D2C24B65300602831 /* chatappwithFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatappwithFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F479B23B2C24B76C00602831 /* TitleRow .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TitleRow .swift"; sourceTree = "<group>"; };
+		F479B23E2C24BFDB00602831 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F479B2402C24C31A00602831 /* MensageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensageBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		F479B20F2C24B65000602831 /* chatappwithFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				F479B23D2C24BFC800602831 /* Model */,
+				F479B23A2C24B75F00602831 /* View */,
 				F479B2102C24B65000602831 /* chatappwithFirebaseApp.swift */,
 				F479B2122C24B65000602831 /* ContentView.swift */,
 				F479B2142C24B65200602831 /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				F479B22D2C24B65300602831 /* chatappwithFirebaseUITestsLaunchTests.swift */,
 			);
 			path = chatappwithFirebaseUITests;
+			sourceTree = "<group>";
+		};
+		F479B23A2C24B75F00602831 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F479B23B2C24B76C00602831 /* TitleRow .swift */,
+				F479B2402C24C31A00602831 /* MensageBubble.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F479B23D2C24BFC800602831 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F479B23E2C24BFDB00602831 /* Message.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F479B23C2C24B76C00602831 /* TitleRow .swift in Sources */,
+				F479B2412C24C31A00602831 /* MensageBubble.swift in Sources */,
+				F479B23F2C24BFDB00602831 /* Message.swift in Sources */,
 				F479B2132C24B65000602831 /* ContentView.swift in Sources */,
 				F479B2112C24B65000602831 /* chatappwithFirebaseApp.swift in Sources */,
 			);
