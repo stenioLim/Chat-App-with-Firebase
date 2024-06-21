@@ -32,18 +32,13 @@ struct MessageBubble: View {
                 .onTapGesture {
                     showTime.toggle()
                 }
-            
-            
-            
-            
-                
             VStack(alignment:message.received ? .leading : .trailing){
                 Circle()
                     .fill(message.received ? Color(.gray).opacity(0.3) : Color(.blue).opacity(0.7))
                     .frame(width: 10)
             }
-            .padding(.bottom, 5)
         }
+       
         .frame(maxWidth: .infinity, alignment:  message.received ? .leading : .trailing)
         .padding(message.received ? .leading : .trailing )
         .padding(.horizontal, 10)
